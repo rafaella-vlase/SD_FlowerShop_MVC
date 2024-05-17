@@ -72,9 +72,10 @@
             // 
             this.pictureBoxBubble.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxBubble.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.employee_bubble;
-            this.pictureBoxBubble.Location = new System.Drawing.Point(63, 17);
+            this.pictureBoxBubble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxBubble.Location = new System.Drawing.Point(63, 100);
             this.pictureBoxBubble.Name = "pictureBoxBubble";
-            this.pictureBoxBubble.Size = new System.Drawing.Size(293, 62);
+            this.pictureBoxBubble.Size = new System.Drawing.Size(282, 49);
             this.pictureBoxBubble.TabIndex = 42;
             this.pictureBoxBubble.TabStop = false;
             // 
@@ -82,16 +83,18 @@
             // 
             this.pictureBoxAvatar.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxAvatar.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.avatar;
+            this.pictureBoxAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxAvatar.InitialImage = global::MVC_FlowerShop.Properties.Resources.avatar;
-            this.pictureBoxAvatar.Location = new System.Drawing.Point(20, 76);
+            this.pictureBoxAvatar.Location = new System.Drawing.Point(36, 155);
             this.pictureBoxAvatar.Name = "pictureBoxAvatar";
-            this.pictureBoxAvatar.Size = new System.Drawing.Size(187, 195);
+            this.pictureBoxAvatar.Size = new System.Drawing.Size(144, 120);
             this.pictureBoxAvatar.TabIndex = 41;
             this.pictureBoxAvatar.TabStop = false;
             // 
             // labelSearch
             // 
             this.labelSearch.AutoSize = true;
+            this.labelSearch.BackColor = System.Drawing.Color.Transparent;
             this.labelSearch.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelSearch.Location = new System.Drawing.Point(488, 342);
             this.labelSearch.Name = "labelSearch";
@@ -138,6 +141,7 @@
             // labelStock
             // 
             this.labelStock.AutoSize = true;
+            this.labelStock.BackColor = System.Drawing.Color.Transparent;
             this.labelStock.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelStock.Location = new System.Drawing.Point(362, 214);
             this.labelStock.Name = "labelStock";
@@ -148,6 +152,7 @@
             // labelPrice
             // 
             this.labelPrice.AutoSize = true;
+            this.labelPrice.BackColor = System.Drawing.Color.Transparent;
             this.labelPrice.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelPrice.Location = new System.Drawing.Point(362, 174);
             this.labelPrice.Name = "labelPrice";
@@ -158,6 +163,7 @@
             // labelColor
             // 
             this.labelColor.AutoSize = true;
+            this.labelColor.BackColor = System.Drawing.Color.Transparent;
             this.labelColor.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelColor.Location = new System.Drawing.Point(362, 132);
             this.labelColor.Name = "labelColor";
@@ -168,6 +174,7 @@
             // labelFlowerName
             // 
             this.labelFlowerName.AutoSize = true;
+            this.labelFlowerName.BackColor = System.Drawing.Color.Transparent;
             this.labelFlowerName.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFlowerName.Location = new System.Drawing.Point(362, 91);
             this.labelFlowerName.Name = "labelFlowerName";
@@ -178,6 +185,7 @@
             // labelFlowerID
             // 
             this.labelFlowerID.AutoSize = true;
+            this.labelFlowerID.BackColor = System.Drawing.Color.Transparent;
             this.labelFlowerID.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFlowerID.Location = new System.Drawing.Point(362, 52);
             this.labelFlowerID.Name = "labelFlowerID";
@@ -187,12 +195,13 @@
             // 
             // buttonLogout
             // 
+            this.buttonLogout.BackColor = System.Drawing.Color.MistyRose;
             this.buttonLogout.Location = new System.Drawing.Point(63, 281);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(86, 34);
             this.buttonLogout.TabIndex = 29;
             this.buttonLogout.Text = "Logout";
-            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.UseVisualStyleBackColor = false;
             // 
             // textBoxSearch
             // 
@@ -204,52 +213,58 @@
             // 
             // buttonDelete
             // 
+            this.buttonDelete.BackColor = System.Drawing.Color.MistyRose;
             this.buttonDelete.Location = new System.Drawing.Point(625, 281);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(86, 34);
             this.buttonDelete.TabIndex = 27;
             this.buttonDelete.Text = "Delete";
-            this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.UseVisualStyleBackColor = false;
             // 
             // buttonUpdate
             // 
+            this.buttonUpdate.BackColor = System.Drawing.Color.MistyRose;
             this.buttonUpdate.Location = new System.Drawing.Point(493, 281);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(86, 34);
             this.buttonUpdate.TabIndex = 26;
             this.buttonUpdate.Text = "Update";
-            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.UseVisualStyleBackColor = false;
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.MistyRose;
             this.buttonAdd.Location = new System.Drawing.Point(362, 281);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(86, 34);
             this.buttonAdd.TabIndex = 25;
             this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             // 
             // buttonViewAll
             // 
+            this.buttonViewAll.BackColor = System.Drawing.Color.MistyRose;
             this.buttonViewAll.Location = new System.Drawing.Point(887, 378);
             this.buttonViewAll.Name = "buttonViewAll";
             this.buttonViewAll.Size = new System.Drawing.Size(86, 34);
             this.buttonViewAll.TabIndex = 24;
             this.buttonViewAll.Text = "View All";
-            this.buttonViewAll.UseVisualStyleBackColor = true;
+            this.buttonViewAll.UseVisualStyleBackColor = false;
             // 
             // buttonSearch
             // 
+            this.buttonSearch.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSearch.Location = new System.Drawing.Point(789, 378);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(86, 34);
             this.buttonSearch.TabIndex = 23;
             this.buttonSearch.Text = "Search";
-            this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.UseVisualStyleBackColor = false;
             // 
             // dataGridViewFlowers
             // 
             this.dataGridViewFlowers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewFlowers.BackgroundColor = System.Drawing.Color.MistyRose;
             this.dataGridViewFlowers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewFlowers.Location = new System.Drawing.Point(29, 418);
             this.dataGridViewFlowers.Name = "dataGridViewFlowers";
@@ -266,39 +281,43 @@
             // 
             // buttonSaveJSON
             // 
+            this.buttonSaveJSON.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveJSON.Location = new System.Drawing.Point(869, 56);
             this.buttonSaveJSON.Name = "buttonSaveJSON";
             this.buttonSaveJSON.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveJSON.TabIndex = 45;
             this.buttonSaveJSON.Text = "Save JSON";
-            this.buttonSaveJSON.UseVisualStyleBackColor = true;
+            this.buttonSaveJSON.UseVisualStyleBackColor = false;
             // 
             // buttonSaveCSV
             // 
+            this.buttonSaveCSV.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveCSV.Location = new System.Drawing.Point(771, 56);
             this.buttonSaveCSV.Name = "buttonSaveCSV";
             this.buttonSaveCSV.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveCSV.TabIndex = 44;
             this.buttonSaveCSV.Text = "Save CSV";
-            this.buttonSaveCSV.UseVisualStyleBackColor = true;
+            this.buttonSaveCSV.UseVisualStyleBackColor = false;
             // 
             // buttonSaveDOC
             // 
+            this.buttonSaveDOC.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveDOC.Location = new System.Drawing.Point(869, 96);
             this.buttonSaveDOC.Name = "buttonSaveDOC";
             this.buttonSaveDOC.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveDOC.TabIndex = 47;
             this.buttonSaveDOC.Text = "Save DOC";
-            this.buttonSaveDOC.UseVisualStyleBackColor = true;
+            this.buttonSaveDOC.UseVisualStyleBackColor = false;
             // 
             // buttonSaveXML
             // 
+            this.buttonSaveXML.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveXML.Location = new System.Drawing.Point(771, 96);
             this.buttonSaveXML.Name = "buttonSaveXML";
             this.buttonSaveXML.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveXML.TabIndex = 46;
             this.buttonSaveXML.Text = "Save XML";
-            this.buttonSaveXML.UseVisualStyleBackColor = true;
+            this.buttonSaveXML.UseVisualStyleBackColor = false;
             // 
             // comboBoxFilterBy
             // 
@@ -329,6 +348,7 @@
             // labelOrderBy
             // 
             this.labelOrderBy.AutoSize = true;
+            this.labelOrderBy.BackColor = System.Drawing.Color.Transparent;
             this.labelOrderBy.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelOrderBy.Location = new System.Drawing.Point(30, 355);
             this.labelOrderBy.Name = "labelOrderBy";
@@ -339,6 +359,7 @@
             // labelFilterBy
             // 
             this.labelFilterBy.AutoSize = true;
+            this.labelFilterBy.BackColor = System.Drawing.Color.Transparent;
             this.labelFilterBy.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFilterBy.Location = new System.Drawing.Point(282, 355);
             this.labelFilterBy.Name = "labelFilterBy";
@@ -357,6 +378,7 @@
             // labelChangeLanguage
             // 
             this.labelChangeLanguage.AutoSize = true;
+            this.labelChangeLanguage.BackColor = System.Drawing.Color.Transparent;
             this.labelChangeLanguage.Font = new System.Drawing.Font("Segoe Script", 13F, System.Drawing.FontStyle.Bold);
             this.labelChangeLanguage.Location = new System.Drawing.Point(774, 138);
             this.labelChangeLanguage.Name = "labelChangeLanguage";
@@ -380,6 +402,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.defaultBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1442, 793);

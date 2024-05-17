@@ -35,7 +35,6 @@
             this.chartFlowers = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comboBoxCriterion = new System.Windows.Forms.ComboBox();
             this.buttonBack = new System.Windows.Forms.Button();
-            this.buttonStatistics = new System.Windows.Forms.Button();
             this.labelCriterion = new System.Windows.Forms.Label();
             this.labelChangeLanguage = new System.Windows.Forms.Label();
             this.comboBoxChangeLanguage = new System.Windows.Forms.ComboBox();
@@ -78,39 +77,33 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(232, 631);
+            this.buttonBack.BackColor = System.Drawing.Color.MistyRose;
+            this.buttonBack.Location = new System.Drawing.Point(401, 630);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(128, 23);
             this.buttonBack.TabIndex = 3;
             this.buttonBack.Text = "Back to Manager";
-            this.buttonBack.UseVisualStyleBackColor = true;
-            // 
-            // buttonStatistics
-            // 
-            this.buttonStatistics.Location = new System.Drawing.Point(514, 631);
-            this.buttonStatistics.Name = "buttonStatistics";
-            this.buttonStatistics.Size = new System.Drawing.Size(128, 23);
-            this.buttonStatistics.TabIndex = 4;
-            this.buttonStatistics.Text = "Show Statistics";
-            this.buttonStatistics.UseVisualStyleBackColor = true;
+            this.buttonBack.UseVisualStyleBackColor = false;
             // 
             // labelCriterion
             // 
             this.labelCriterion.AutoSize = true;
-            this.labelCriterion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.labelCriterion.BackColor = System.Drawing.Color.Transparent;
+            this.labelCriterion.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCriterion.Location = new System.Drawing.Point(155, 587);
             this.labelCriterion.Name = "labelCriterion";
-            this.labelCriterion.Size = new System.Drawing.Size(104, 17);
+            this.labelCriterion.Size = new System.Drawing.Size(120, 20);
             this.labelCriterion.TabIndex = 5;
             this.labelCriterion.Text = "Select Criterion";
             // 
             // labelChangeLanguage
             // 
             this.labelChangeLanguage.AutoSize = true;
-            this.labelChangeLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelChangeLanguage.Location = new System.Drawing.Point(446, 584);
+            this.labelChangeLanguage.BackColor = System.Drawing.Color.Transparent;
+            this.labelChangeLanguage.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelChangeLanguage.Location = new System.Drawing.Point(460, 581);
             this.labelChangeLanguage.Name = "labelChangeLanguage";
-            this.labelChangeLanguage.Size = new System.Drawing.Size(125, 17);
+            this.labelChangeLanguage.Size = new System.Drawing.Size(132, 20);
             this.labelChangeLanguage.TabIndex = 6;
             this.labelChangeLanguage.Text = "Change Language";
             // 
@@ -136,7 +129,6 @@
             this.Controls.Add(this.comboBoxChangeLanguage);
             this.Controls.Add(this.labelChangeLanguage);
             this.Controls.Add(this.labelCriterion);
-            this.Controls.Add(this.buttonStatistics);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.comboBoxCriterion);
             this.Controls.Add(this.chartFlowers);
@@ -155,7 +147,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFlowers;
         private System.Windows.Forms.ComboBox comboBoxCriterion;
         private System.Windows.Forms.Button buttonBack;
-        private System.Windows.Forms.Button buttonStatistics;
         private System.Windows.Forms.Label labelCriterion;
         private System.Windows.Forms.Label labelChangeLanguage;
         private System.Windows.Forms.ComboBox comboBoxChangeLanguage;

@@ -44,10 +44,9 @@
             this.labelUsername.AutoSize = true;
             this.labelUsername.BackColor = System.Drawing.Color.Transparent;
             this.labelUsername.Font = new System.Drawing.Font("Segoe Script", 20.25F, System.Drawing.FontStyle.Bold);
-            this.labelUsername.Location = new System.Drawing.Point(422, 475);
-            this.labelUsername.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelUsername.Location = new System.Drawing.Point(211, 247);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(331, 90);
+            this.labelUsername.Size = new System.Drawing.Size(166, 44);
             this.labelUsername.TabIndex = 0;
             this.labelUsername.Text = "Username:";
             // 
@@ -56,32 +55,29 @@
             this.labelPassword.AutoSize = true;
             this.labelPassword.BackColor = System.Drawing.Color.Transparent;
             this.labelPassword.Font = new System.Drawing.Font("Segoe Script", 20.25F, System.Drawing.FontStyle.Bold);
-            this.labelPassword.Location = new System.Drawing.Point(430, 598);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelPassword.Location = new System.Drawing.Point(215, 311);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(323, 90);
+            this.labelPassword.Size = new System.Drawing.Size(161, 44);
             this.labelPassword.TabIndex = 1;
             this.labelPassword.Text = "Password:";
             // 
             // textBoxUsername
             // 
             this.textBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.textBoxUsername.Location = new System.Drawing.Point(853, 489);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxUsername.Font = new System.Drawing.Font("Segoe Script", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUsername.Location = new System.Drawing.Point(426, 254);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(680, 61);
+            this.textBoxUsername.Size = new System.Drawing.Size(340, 34);
             this.textBoxUsername.TabIndex = 2;
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.textBoxPassword.Location = new System.Drawing.Point(853, 638);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxPassword.Location = new System.Drawing.Point(426, 332);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(680, 28);
+            this.textBoxPassword.Size = new System.Drawing.Size(340, 14);
             this.textBoxPassword.TabIndex = 3;
             // 
             // buttonLogin
@@ -90,10 +86,9 @@
             this.buttonLogin.FlatAppearance.BorderSize = 0;
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogin.Font = new System.Drawing.Font("Segoe Script", 20.25F, System.Drawing.FontStyle.Bold);
-            this.buttonLogin.Location = new System.Drawing.Point(837, 738);
-            this.buttonLogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.buttonLogin.Location = new System.Drawing.Point(418, 384);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(335, 87);
+            this.buttonLogin.Size = new System.Drawing.Size(168, 45);
             this.buttonLogin.TabIndex = 4;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = false;
@@ -102,12 +97,11 @@
             // 
             this.labelFlowerShop.AutoSize = true;
             this.labelFlowerShop.BackColor = System.Drawing.Color.Transparent;
-            this.labelFlowerShop.Font = new System.Drawing.Font("Segoe Script", 40F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelFlowerShop.Font = new System.Drawing.Font("Segoe Script", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelFlowerShop.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.labelFlowerShop.Location = new System.Drawing.Point(602, 152);
-            this.labelFlowerShop.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelFlowerShop.Location = new System.Drawing.Point(301, 88);
             this.labelFlowerShop.Name = "labelFlowerShop";
-            this.labelFlowerShop.Size = new System.Drawing.Size(776, 177);
+            this.labelFlowerShop.Size = new System.Drawing.Size(347, 80);
             this.labelFlowerShop.TabIndex = 5;
             this.labelFlowerShop.Text = "Flower Shop";
             // 
@@ -116,10 +110,9 @@
             this.labelSelectLanguage.AutoSize = true;
             this.labelSelectLanguage.BackColor = System.Drawing.Color.Transparent;
             this.labelSelectLanguage.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSelectLanguage.Location = new System.Drawing.Point(455, 377);
-            this.labelSelectLanguage.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelSelectLanguage.Location = new System.Drawing.Point(228, 196);
             this.labelSelectLanguage.Name = "labelSelectLanguage";
-            this.labelSelectLanguage.Size = new System.Drawing.Size(298, 53);
+            this.labelSelectLanguage.Size = new System.Drawing.Size(146, 27);
             this.labelSelectLanguage.TabIndex = 6;
             this.labelSelectLanguage.Text = "Select language:";
             // 
@@ -130,19 +123,18 @@
             "English",
             "French",
             "Italian"});
-            this.comboBoxLanguage.Location = new System.Drawing.Point(816, 391);
-            this.comboBoxLanguage.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.comboBoxLanguage.Location = new System.Drawing.Point(408, 203);
             this.comboBoxLanguage.Name = "comboBoxLanguage";
-            this.comboBoxLanguage.Size = new System.Drawing.Size(430, 33);
+            this.comboBoxLanguage.Size = new System.Drawing.Size(217, 21);
             this.comboBoxLanguage.TabIndex = 7;
             // 
             // VLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.loginBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1986, 1225);
+            this.ClientSize = new System.Drawing.Size(991, 638);
             this.Controls.Add(this.comboBoxLanguage);
             this.Controls.Add(this.labelSelectLanguage);
             this.Controls.Add(this.labelFlowerShop);
@@ -152,7 +144,6 @@
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUsername);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "VLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login - FlowerShop";

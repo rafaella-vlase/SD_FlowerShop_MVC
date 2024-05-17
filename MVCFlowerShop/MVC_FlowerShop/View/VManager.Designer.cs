@@ -72,6 +72,7 @@
             // labelFilterBy
             // 
             this.labelFilterBy.AutoSize = true;
+            this.labelFilterBy.BackColor = System.Drawing.Color.Transparent;
             this.labelFilterBy.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFilterBy.Location = new System.Drawing.Point(303, 356);
             this.labelFilterBy.Name = "labelFilterBy";
@@ -82,6 +83,7 @@
             // labelOrderBy
             // 
             this.labelOrderBy.AutoSize = true;
+            this.labelOrderBy.BackColor = System.Drawing.Color.Transparent;
             this.labelOrderBy.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelOrderBy.Location = new System.Drawing.Point(51, 356);
             this.labelOrderBy.Name = "labelOrderBy";
@@ -118,39 +120,43 @@
             // 
             // buttonSaveDOC
             // 
+            this.buttonSaveDOC.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveDOC.Location = new System.Drawing.Point(890, 97);
             this.buttonSaveDOC.Name = "buttonSaveDOC";
             this.buttonSaveDOC.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveDOC.TabIndex = 76;
             this.buttonSaveDOC.Text = "Save DOC";
-            this.buttonSaveDOC.UseVisualStyleBackColor = true;
+            this.buttonSaveDOC.UseVisualStyleBackColor = false;
             // 
             // buttonSaveXML
             // 
+            this.buttonSaveXML.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveXML.Location = new System.Drawing.Point(792, 97);
             this.buttonSaveXML.Name = "buttonSaveXML";
             this.buttonSaveXML.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveXML.TabIndex = 75;
             this.buttonSaveXML.Text = "Save XML";
-            this.buttonSaveXML.UseVisualStyleBackColor = true;
+            this.buttonSaveXML.UseVisualStyleBackColor = false;
             // 
             // buttonSaveJSON
             // 
+            this.buttonSaveJSON.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveJSON.Location = new System.Drawing.Point(890, 57);
             this.buttonSaveJSON.Name = "buttonSaveJSON";
             this.buttonSaveJSON.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveJSON.TabIndex = 74;
             this.buttonSaveJSON.Text = "Save JSON";
-            this.buttonSaveJSON.UseVisualStyleBackColor = true;
+            this.buttonSaveJSON.UseVisualStyleBackColor = false;
             // 
             // buttonSaveCSV
             // 
+            this.buttonSaveCSV.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSaveCSV.Location = new System.Drawing.Point(792, 57);
             this.buttonSaveCSV.Name = "buttonSaveCSV";
             this.buttonSaveCSV.Size = new System.Drawing.Size(86, 34);
             this.buttonSaveCSV.TabIndex = 73;
             this.buttonSaveCSV.Text = "Save CSV";
-            this.buttonSaveCSV.UseVisualStyleBackColor = true;
+            this.buttonSaveCSV.UseVisualStyleBackColor = false;
             // 
             // textBoxStock
             // 
@@ -164,9 +170,10 @@
             // 
             this.pictureBoxBubble.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxBubble.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.manager_bubble;
-            this.pictureBoxBubble.Location = new System.Drawing.Point(84, 18);
+            this.pictureBoxBubble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxBubble.Location = new System.Drawing.Point(84, 108);
             this.pictureBoxBubble.Name = "pictureBoxBubble";
-            this.pictureBoxBubble.Size = new System.Drawing.Size(293, 62);
+            this.pictureBoxBubble.Size = new System.Drawing.Size(243, 53);
             this.pictureBoxBubble.TabIndex = 71;
             this.pictureBoxBubble.TabStop = false;
             // 
@@ -174,16 +181,18 @@
             // 
             this.pictureBoxAvatar.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxAvatar.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.avatar;
+            this.pictureBoxAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxAvatar.InitialImage = global::MVC_FlowerShop.Properties.Resources.avatar;
-            this.pictureBoxAvatar.Location = new System.Drawing.Point(41, 77);
+            this.pictureBoxAvatar.Location = new System.Drawing.Point(72, 165);
             this.pictureBoxAvatar.Name = "pictureBoxAvatar";
-            this.pictureBoxAvatar.Size = new System.Drawing.Size(187, 195);
+            this.pictureBoxAvatar.Size = new System.Drawing.Size(117, 111);
             this.pictureBoxAvatar.TabIndex = 70;
             this.pictureBoxAvatar.TabStop = false;
             // 
             // labelSearch
             // 
             this.labelSearch.AutoSize = true;
+            this.labelSearch.BackColor = System.Drawing.Color.Transparent;
             this.labelSearch.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelSearch.Location = new System.Drawing.Point(509, 343);
             this.labelSearch.Name = "labelSearch";
@@ -230,6 +239,7 @@
             // labelStock
             // 
             this.labelStock.AutoSize = true;
+            this.labelStock.BackColor = System.Drawing.Color.Transparent;
             this.labelStock.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelStock.Location = new System.Drawing.Point(383, 215);
             this.labelStock.Name = "labelStock";
@@ -240,6 +250,7 @@
             // labelPrice
             // 
             this.labelPrice.AutoSize = true;
+            this.labelPrice.BackColor = System.Drawing.Color.Transparent;
             this.labelPrice.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelPrice.Location = new System.Drawing.Point(383, 175);
             this.labelPrice.Name = "labelPrice";
@@ -250,6 +261,7 @@
             // labelColor
             // 
             this.labelColor.AutoSize = true;
+            this.labelColor.BackColor = System.Drawing.Color.Transparent;
             this.labelColor.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelColor.Location = new System.Drawing.Point(383, 133);
             this.labelColor.Name = "labelColor";
@@ -260,6 +272,7 @@
             // labelFlowerName
             // 
             this.labelFlowerName.AutoSize = true;
+            this.labelFlowerName.BackColor = System.Drawing.Color.Transparent;
             this.labelFlowerName.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFlowerName.Location = new System.Drawing.Point(383, 92);
             this.labelFlowerName.Name = "labelFlowerName";
@@ -270,6 +283,7 @@
             // labelFlowerID
             // 
             this.labelFlowerID.AutoSize = true;
+            this.labelFlowerID.BackColor = System.Drawing.Color.Transparent;
             this.labelFlowerID.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelFlowerID.Location = new System.Drawing.Point(383, 53);
             this.labelFlowerID.Name = "labelFlowerID";
@@ -279,12 +293,13 @@
             // 
             // buttonLogout
             // 
+            this.buttonLogout.BackColor = System.Drawing.Color.MistyRose;
             this.buttonLogout.Location = new System.Drawing.Point(84, 282);
             this.buttonLogout.Name = "buttonLogout";
             this.buttonLogout.Size = new System.Drawing.Size(86, 34);
             this.buttonLogout.TabIndex = 59;
             this.buttonLogout.Text = "Logout";
-            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.UseVisualStyleBackColor = false;
             // 
             // textBoxSearch
             // 
@@ -296,25 +311,28 @@
             // 
             // buttonViewAll
             // 
+            this.buttonViewAll.BackColor = System.Drawing.Color.MistyRose;
             this.buttonViewAll.Location = new System.Drawing.Point(908, 379);
             this.buttonViewAll.Name = "buttonViewAll";
             this.buttonViewAll.Size = new System.Drawing.Size(86, 34);
             this.buttonViewAll.TabIndex = 54;
             this.buttonViewAll.Text = "View All";
-            this.buttonViewAll.UseVisualStyleBackColor = true;
+            this.buttonViewAll.UseVisualStyleBackColor = false;
             // 
             // buttonSearch
             // 
+            this.buttonSearch.BackColor = System.Drawing.Color.MistyRose;
             this.buttonSearch.Location = new System.Drawing.Point(810, 379);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(86, 34);
             this.buttonSearch.TabIndex = 53;
             this.buttonSearch.Text = "Search";
-            this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.UseVisualStyleBackColor = false;
             // 
             // dataGridViewFlowers
             // 
             this.dataGridViewFlowers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewFlowers.BackgroundColor = System.Drawing.Color.MistyRose;
             this.dataGridViewFlowers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewFlowers.Location = new System.Drawing.Point(50, 419);
             this.dataGridViewFlowers.Name = "dataGridViewFlowers";
@@ -324,6 +342,7 @@
             // labelShopID
             // 
             this.labelShopID.AutoSize = true;
+            this.labelShopID.BackColor = System.Drawing.Color.Transparent;
             this.labelShopID.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelShopID.Location = new System.Drawing.Point(383, 255);
             this.labelShopID.Name = "labelShopID";
@@ -345,12 +364,13 @@
             // 
             // buttonStatistics
             // 
+            this.buttonStatistics.BackColor = System.Drawing.Color.MistyRose;
             this.buttonStatistics.Location = new System.Drawing.Point(792, 139);
             this.buttonStatistics.Name = "buttonStatistics";
             this.buttonStatistics.Size = new System.Drawing.Size(86, 34);
             this.buttonStatistics.TabIndex = 83;
             this.buttonStatistics.Text = "Statistics";
-            this.buttonStatistics.UseVisualStyleBackColor = true;
+            this.buttonStatistics.UseVisualStyleBackColor = false;
             // 
             // pictureBoxFlowers
             // 
@@ -363,6 +383,7 @@
             // labelChangeLanguage
             // 
             this.labelChangeLanguage.AutoSize = true;
+            this.labelChangeLanguage.BackColor = System.Drawing.Color.Transparent;
             this.labelChangeLanguage.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Bold);
             this.labelChangeLanguage.Location = new System.Drawing.Point(795, 190);
             this.labelChangeLanguage.Name = "labelChangeLanguage";
@@ -386,6 +407,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.BackgroundImage = global::MVC_FlowerShop.Properties.Resources.defaultBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1442, 793);

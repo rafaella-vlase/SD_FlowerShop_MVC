@@ -50,11 +50,6 @@ namespace MVC_FlowerShop.View
             return this.buttonBack;
         }
 
-        public Button GetStatisticsButton()
-        {
-            return this.buttonStatistics;
-        }
-
         public void Update(Subject obs)
         {
             LangHelper lang = (LangHelper)obs;
